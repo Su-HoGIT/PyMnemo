@@ -1,0 +1,20 @@
+/* frontend/src/app/pages/home/home.component.scss */
+.home-content {
+    padding: 20px;
+  }
+  
+  .language-button {
+    background-color: transparent;
+    border: 1px solid #e0e0e0; /* Bordure blanche/grise */
+    color: #e0e0e0; /* Texte blanc/gris */
+    padding: 15px 30px;
+    margin: 10px;
+    font-size: 1.2em;
+    cursor: pointer;
+    transition: background-color 0.2s ease-in-out, color 0.2s ease-in-out;
+  
+    &:hover {
+      background-color: #e0e0e0; /* Fond blanc/gris au survol */
+      color: #0d0d0d; /* Texte noir au survol */
+    }
+  }
