@@ -172,3 +172,25 @@ cython_debug/
 
 # PyPI configuration file
 .pypirc
+
+# Python
+backend/venv/ 
+__pycache__/
+*.pyc
+*.pyo
+*.pyd
+# ...
+
+# Node / Angular
+frontend/node_modules/
+node_modules/ # Au cas où
+dist/
+# ...
+
+# Fichiers spécifiques IDE/OS
+.vscode/
+.DS_Store
+Thumbs.db
+instance/ # Souvent utilisé par Flask
+*.sqlite
+*.sqlite3
